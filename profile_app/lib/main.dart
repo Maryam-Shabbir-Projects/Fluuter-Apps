@@ -79,7 +79,7 @@ class ProfilePage extends StatelessWidget {
               ),
               const SizedBox(height: 6),
               Text(
-                'Hasilpur, Pakistan',
+                'Bahawalpur, Pakistan',
                 style: TextStyle(fontSize: 16, color: Colors.grey[600]),
               ),
               const SizedBox(height: 20),
