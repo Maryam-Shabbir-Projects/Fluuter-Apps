@@ -1,4 +1,4 @@
-name: commite_management_app
+name: committe_managemnet
 description: "A new Flutter project."
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
@@ -30,11 +30,17 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  intl: ^0.20.2
-  shared_preferences: ^2.3.2
-  flutter_local_notifications: ^18.0.1
-  timezone: ^0.10.1
-  url_launcher: ^6.3.0
+  sqflite: ^2.3.0
+  path_provider: ^2.1.2
+  path: ^1.9.0
+  uuid: ^4.4.0
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  fl_chart: ^1.1.1
+  font_awesome_flutter: ^10.7.0
+  url_launcher: ^6.2.5
+
+  charts_flutter: ^0.12.0
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -43,6 +49,8 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.6
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is

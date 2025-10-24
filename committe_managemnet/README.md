@@ -1,4 +1,4 @@
-# commite_management_app
+# committe_managemnet
 
 A new Flutter project.
 
