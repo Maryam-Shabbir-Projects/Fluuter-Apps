@@ -177,8 +177,7 @@ class _DiceGameState extends State<DiceGame> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              _gameStarted
-                  ? Text('Player $_currentPlayer\'s turn', style: TextStyle(fontSize: 24))
+              _gameStarted ? Text('Player $_currentPlayer\'s turn', style: TextStyle(fontSize: 24))
                   : TextField(
                 controller: _roundsController,
                 decoration: InputDecoration(labelText: 'Total Rounds'),

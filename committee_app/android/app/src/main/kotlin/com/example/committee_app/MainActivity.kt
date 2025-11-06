@@ -1,4 +1,4 @@
-package com.example.committe_managemnet
+package com.example.committee_app
 
 import io.flutter.embedding.android.FlutterActivity
 
