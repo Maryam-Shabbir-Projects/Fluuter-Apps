@@ -56,6 +56,12 @@ class _InputPageState extends State<InputPage> {
             ),
           ),
 
+          Expanded(
+            child: Container(
+              margin: const EdgeInsets.all(15),
+              decoration: cardStyle,
+            ),
+          ),
           // ---------------- ROW 2 ----------------
           Expanded(
             child: Row(
@@ -77,12 +83,7 @@ class _InputPageState extends State<InputPage> {
           ),
 
           // ---------------- SINGLE LARGE BOX ----------------
-          Expanded(
-            child: Container(
-              margin: const EdgeInsets.all(15),
-              decoration: cardStyle,
-            ),
-          ),
+
         ],
       ),
     );
