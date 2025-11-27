@@ -19,7 +19,7 @@ class BMICalculator extends StatelessWidget {
         useMaterial3: true,
         scaffoldBackgroundColor: Colors.black, // make screen black
       ),
-      home: const InputPage(title: 'BMI Calculator'),
+      home: const InputPage(title: 'BMI Calcultor'),
     );
   }
 }
