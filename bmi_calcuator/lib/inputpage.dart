@@ -12,7 +12,7 @@ class InputPage extends StatefulWidget {
 class _InputPageState extends State<InputPage> {
   // A reusable container style
   BoxDecoration cardStyle = BoxDecoration(
-    color: const Color(0xFF1D1E33),       // blackish-grey
+    color: const Color(0xFF1D1E83),       // blackish-grey
     borderRadius: BorderRadius.circular(15),
   );
 
