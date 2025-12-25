@@ -11,8 +11,7 @@ class InventoryPage extends StatefulWidget {
 }
 
 class _InventoryPageState extends State<InventoryPage> {
-  final InventoryController inventoryController =
-  Get.find<InventoryController>();
+  final InventoryController inventoryController = Get.find<InventoryController>();
 
   String searchQuery = '';
 
@@ -26,7 +25,7 @@ class _InventoryPageState extends State<InventoryPage> {
         padding: const EdgeInsets.all(12),
         child: Column(
           children: [
-            /// Search
+            // Search bar
             TextField(
               decoration: const InputDecoration(
                 labelText: 'Search Product',
@@ -41,17 +40,15 @@ class _InventoryPageState extends State<InventoryPage> {
             ),
             const SizedBox(height: 12),
 
-            /// Inventory List
+            // Inventory list
             Expanded(
               child: Obx(() {
-                List inventory =
-                List.from(inventoryController.inventoryList);
+                List inventory = List.from(inventoryController.inventoryList);
 
+                // Filter by search query
                 if (searchQuery.isNotEmpty) {
                   inventory = inventory
-                      .where((item) => item.productName
-                      .toLowerCase()
-                      .contains(searchQuery.toLowerCase()))
+                      .where((item) => item.productName.toLowerCase().contains(searchQuery.toLowerCase()))
                       .toList();
                 }
 
@@ -80,8 +77,7 @@ class _InventoryPageState extends State<InventoryPage> {
                       trailing: IconButton(
                         icon: const Icon(Icons.delete, color: Colors.red),
                         onPressed: () {
-                          inventoryController
-                              .deleteInventoryItem(item.productId);
+                          inventoryController.deleteInventoryItem(item.productId);
                         },
                       ),
                     );
