@@ -1,3 +1,9 @@
+
+
+
+screen recording
+
+
 # POS App Documentation
 
 Welcome to the POS App documentation! Use the sections below to quickly navigate and explore different parts of the app.
