@@ -2,7 +2,7 @@
 
 
 screen recording
-
+https://drive.google.com/file/d/10j2SGLMDf4XSTEtWnOAL7Vg02TQCZqzS/view?usp=drive_link
 
 # POS App Documentation
 
