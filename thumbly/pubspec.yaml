@@ -1,0 +1,22 @@
+name: thumbly
+description: YouTube thumbnail maker with templates, icons, multi-language text and offline saving.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+  flutter: ">=3.22.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_tesseract_ocr: 0.4.31
+  google_fonts: ^6.2.1
+  google_mlkit_text_recognition: ^0.16.0
+  image_background_remover: ^2.0.1
+  image_picker: ^1.1.2
+  path_provider: ^2.1.4
+  share_plus: ^10.0.0
+
+flutter:
+  uses-material-design: true
