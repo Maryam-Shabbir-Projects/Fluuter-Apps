@@ -107,4 +107,7 @@ If you use a different project name, update the `package:cgpa_calculator/` impor
 
 ## License
 
-Add your license here.
+license here.
+
+<img width="1600" height="900" alt="calulator" src="https://github.com/user-attachments/assets/8544d19e-3cbf-4611-b441-0b3b579de8c5" />
+
