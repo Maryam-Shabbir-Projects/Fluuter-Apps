@@ -94,4 +94,7 @@ Photo import may need platform permissions. Follow the `image_picker` setup note
 
 ## License
 
-Add your license here.
+license here.
+
+<img width="1200" height="627" alt="thumbly" src="https://github.com/user-attachments/assets/84980067-775a-44ac-a4c2-a5a5b6650ab3" />
+
