@@ -80,4 +80,7 @@ Please have any religious text reviewed by a qualified person before publishing.
 
 ## License
 
-Add your license here.
+ license here.
+
+ <img width="2400" height="1254" alt="kalma" src="https://github.com/user-attachments/assets/689ea050-2b04-4212-a2ef-6bf70e9aa183" />
+
