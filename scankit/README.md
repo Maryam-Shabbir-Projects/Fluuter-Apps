@@ -1,7 +1,8 @@
-<p align="center">
-  <img src="assets/banner.png" alt="ScanKit screens" width="100%">
-</p>
-
+## to run paste these commands in terminal
+flutter pub get
+dart run flutter_launcher_icons
+flutter clean
+flutter run
 <h1 align="center">ScanKit</h1>
 <p align="center">Barcode scanner &amp; generator for Android, built with Flutter.</p>
 
@@ -73,6 +74,9 @@ Before publishing:
 - **Add a barcode type to Create:** add one line to the `_types` map in `lib/screens/create_screen.dart`
 - **Add a setting:** add a flag in `lib/services/store.dart` and a `SwitchListTile` in `lib/screens/settings_screen.dart`
 - **Change the brand colour:** edit `teal` in `lib/core/theme.dart`
+
+  <img width="2400" height="1000" alt="banner" src="https://github.com/user-attachments/assets/bfe14738-8373-4dee-9328-c2763fe38c5b" />
+
 
 ## Packages
 
