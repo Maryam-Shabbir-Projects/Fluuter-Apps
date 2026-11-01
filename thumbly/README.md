@@ -1,3 +1,9 @@
+# To Run Thumbly
+flutter pub get
+dart run flutter_launcher_icons
+flutter clean
+flutter run
+
 # Thumbly
 
 A Flutter app for designing YouTube thumbnails and social media graphics on your phone. Pick a frame size, add text, icons, shapes and photos to a layered canvas, and export a finished PNG. No account and no internet connection needed.
