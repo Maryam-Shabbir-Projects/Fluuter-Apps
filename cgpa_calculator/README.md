@@ -1,3 +1,9 @@
+# to run paste in termial
+flutter pub get
+dart run flutter_launcher_icons
+flutter clean
+flutter run
+
 # CGPA Calculator
 
 A Flutter app that helps university students track grades, calculate SGPA and CGPA, and plan the results they need next. Works offline with no sign-up.
