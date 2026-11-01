@@ -1,0 +1,40 @@
+name: qrisp
+description: Scan and create QR codes in a snap.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  mobile_scanner: ^6.0.2      # camera scanning + scan from image
+  qr_flutter: ^4.1.0          # QR generation
+  shared_preferences: ^2.3.3  # history + settings (stored on device only)
+  url_launcher: ^6.3.1
+  share_plus: ^10.1.4
+  image_picker: ^1.1.2        # uses the Android photo picker (no storage permission)
+  gal: ^2.3.1                 # save QR image to gallery
+  path_provider: ^2.1.5
+  permission_handler: ^11.3.1 # camera permission
+  app_settings: ^5.1.1        # open Wi-Fi / app settings
+  google_fonts: ^6.2.1        # cursive headings (Dancing Script, SIL OFL licence)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/app_icon.png"
+  remove_alpha_ios: true
+  adaptive_icon_background: "assets/icon/icon_background.png"
+  adaptive_icon_foreground: "assets/icon/icon_foreground.png"
+  adaptive_icon_monochrome: "assets/icon/icon_monochrome.png"
