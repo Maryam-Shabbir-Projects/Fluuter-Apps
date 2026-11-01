@@ -83,3 +83,9 @@ dart run flutter_launcher_icons
 ```
 This creates the Android adaptive icon (including the themed monochrome icon for Android 13+) and the iOS icon.
 For the Play Console upload `assets/icon/play_store_icon_512.png` (512 x 512, PNG).
+
+<img width="2400" height="1700" alt="qrisp_all_screens" src="https://github.com/user-attachments/assets/20afb474-a34c-431b-97f7-85ac402eebbf" />
+
+<img width="1024" height="500" alt="qrisp_play_feature_graphic_1024x500" src="https://github.com/user-attachments/assets/e41766d2-45f4-40ff-8ba2-1cb03dc39866" />
+
+
