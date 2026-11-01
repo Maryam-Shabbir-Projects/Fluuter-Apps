@@ -1,0 +1,43 @@
+name: noteleaf
+description: Turn notes in any language into styled pages. Export them as images or a video with voice-over.
+publish_to: none
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  google_fonts: ^6.3.3
+  sqflite: ^2.4.2
+  path: ^1.9.1
+  path_provider: ^2.1.5
+  gal: ^2.3.2
+  file_picker: ^10.3.3
+  image_picker: ^1.2.2
+  archive: ^4.0.7
+  record: ^6.1.2
+  speech_to_text: ^7.3.0
+  ffmpeg_kit_flutter_new: ^3.2.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.14.4
+
+flutter:
+  uses-material-design: true
+
+# App launcher icon. Run once: dart run flutter_launcher_icons
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: assets/icon/icon.png
+  remove_alpha_ios: true
+  adaptive_icon_background: "#0B6E66"
+  adaptive_icon_foreground: assets/icon/icon_fg.png
+  min_sdk_android: 24
