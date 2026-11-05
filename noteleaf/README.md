@@ -72,3 +72,5 @@ iOS (`ios/Runner/Info.plist`): `NSPhotoLibraryUsageDescription` (gallery), `NSMi
 - Fonts download on first use. For release, bundle them as assets so the app works offline.
 - Video uses the `ffmpeg_kit_flutter_new` package. If it is unavailable, any ffmpeg Flutter package works with the same commands in `exporter.dart`.
 - PDF import is not included.
+  <img width="1600" height="900" alt="Ad banner 16 9@1x" src="https://github.com/user-attachments/assets/71d482b1-a036-4be8-8a6f-bbf23668a949" />
+
